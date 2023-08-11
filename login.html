@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Screen </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Login to your Account</h2>
+        <form action="#">
+          <div class="form-group email">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group password">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+          </div>
+          <div class="policy">
+            <input type="checkbox">
+            <h3>Remember me</h3>
+          </div>
+          <div class="form-group button">
+            <input type="Submit" value="Login">
+          </div>
+          <div class="text">
+            <h3>New to MyApp? <a href="register.html">Sign Up</a></h3>
+          </div>
+        </form>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
